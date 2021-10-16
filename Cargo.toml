@@ -1,0 +1,23 @@
+[package]
+name = "covid19-eu-cert-decoder"
+version = "0.1.0"
+edition = "2018"
+resolver = "2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "*"
+base45 = "*"
+ciborium = { git = "https://github.com/enarx/ciborium.git", branch = "main" }
+flate2 = "*"
+
+[build-dependencies]
+build-data = "*"
+
+[profile.release]
+lto = true
+opt-level = 3 #default
+# opt-level = 'z'  # Optimize for size.
+
+# EOF
