@@ -59,7 +59,7 @@ dependencies = [
 [[package]]
 name = "ciborium"
 version = "0.2.0"
-source = "git+https://github.com/enarx/ciborium.git?branch=main#10b531eb306d82c68afbead9126930e680d2dbff"
+source = "git+https://github.com/enarx/ciborium.git?branch=main#ff7e212b0e9c8458d1ded862ad9ba399bd48c91e"
 dependencies = [
  "ciborium-io",
  "ciborium-ll",
@@ -69,12 +69,12 @@ dependencies = [
 [[package]]
 name = "ciborium-io"
 version = "0.2.0"
-source = "git+https://github.com/enarx/ciborium.git?branch=main#10b531eb306d82c68afbead9126930e680d2dbff"
+source = "git+https://github.com/enarx/ciborium.git?branch=main#ff7e212b0e9c8458d1ded862ad9ba399bd48c91e"
 
 [[package]]
 name = "ciborium-ll"
 version = "0.2.0"
-source = "git+https://github.com/enarx/ciborium.git?branch=main#10b531eb306d82c68afbead9126930e680d2dbff"
+source = "git+https://github.com/enarx/ciborium.git?branch=main#ff7e212b0e9c8458d1ded862ad9ba399bd48c91e"
 dependencies = [
  "ciborium-io",
  "half",
