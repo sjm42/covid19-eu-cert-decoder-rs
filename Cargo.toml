@@ -1,10 +1,11 @@
+# Cargo.toml
+
 [package]
 name = "covid19-eu-cert-decoder"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 resolver = "2"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 anyhow = "1.0"
@@ -12,8 +13,10 @@ base45 = "3.0"
 ciborium = { git = "https://github.com/enarx/ciborium.git", branch = "main" }
 flate2 = "1.0"
 
+
 [build-dependencies]
 build-data = "0.1"
+
 
 [profile.release]
 lto = true
