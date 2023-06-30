@@ -37,9 +37,9 @@ checksum = "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa"
 
 [[package]]
 name = "base45"
-version = "3.0.0"
+version = "3.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a68856703e54c0a1d56b80bdf2dc39f368e910fd565178ab953438125418a59a"
+checksum = "b3103f6d6af63726e86b026ac66769fc578ea38aba33f409e5855a4def97a564"
 
 [[package]]
 name = "build-data"
